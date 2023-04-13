@@ -1,0 +1,13 @@
+prefix=/Users/anasshaikh/Documents/Regression/venv
+exec_prefix=/Users/anasshaikh/Documents/Regression/venv
+libdir=/Users/anasshaikh/Documents/Regression/venv/lib
+sharedlibdir=/Users/anasshaikh/Documents/Regression/venv/lib
+includedir=/Users/anasshaikh/Documents/Regression/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
